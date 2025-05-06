@@ -8,5 +8,5 @@
 
 ## Équipe
 
-> Emrick Pearson
-> Vasile Dominique Sulici
+> Emrick Pearson <br>
+> Vasile Dominique Sulici <br>
