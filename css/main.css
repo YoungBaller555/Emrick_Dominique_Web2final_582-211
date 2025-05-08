@@ -1,0 +1,191 @@
+/*----- Styles Généraux -----
+--------------------------------------*/
+/*ici, on déclare nos variables de couleur*/
+:root {
+    --Bleufoncé: #4484F1;
+    --purple: #904CDF;
+    --jaune: #EDDB72;
+    --bleumarin: #0F3C89;
+    --green: #A2FEAC;
+    --lightblue: #81C0EB;
+    --white: #FFFFFF;
+    --black: #000000;
+}
+
+/*ici, on fait seulement en sorte de donner une couleur de background*/
+body {
+    background-color: var(--lightblue);
+}
+
+/* Juste pour que le Header n'ais pas de marge extérieures. Tout le reste aura des marges spécifiées*/
+* {
+    margin: 0;
+}
+
+/*ici, on déclare les fonts*/
+@font-face {
+    font-family: Knewave;
+    src: url(../assets/polices/Knewave-Regular.ttf) format(truetype);
+}
+@font-face {
+    font-family: Itim;
+    src: url(../assets/polices/Itim-Regular.ttf) format(truetype);
+    } 
+
+/*styles de base pour le hearder
+-----------------------------------------------------*/
+/*positionements et styles de base pour le header*/
+.containerheader {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    line-height: 1.5rem;
+    padding: 5px 15px;
+    height: 44px 0;
+    background-color: var(--green);
+    text-align: center;
+    line-height: 1.5rem;
+}
+
+/*positionements pour le burger*/
+#menuburger {
+    align-self: center;
+}
+
+ /*Positionements et styles pour le Search Bar*/
+#searchbarcontainer {
+    display: flex;
+    max-width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 16px;
+    flex: 1 0 0;
+    padding-right: 10px;
+}
+
+#searchbar {
+    display: flex;
+    height: 20px;
+    max-width: 357px;
+    padding: 2px 9px;
+    justify-content: flex-end;
+    align-items: center;
+    align-self: center;
+    gap: 10px;
+    flex: 1 0 0;
+    border-radius: 10px;
+    border: 1px solid #000;
+    background: var(--white);
+}
+
+/*styles et positionements de base pour les paragraphes du footer*/
+.footercontainer {
+    display: flex;
+    width: 100dvw;
+    height: 597px;
+    padding: 20px 0px;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    font-family: "Knewave";
+    background: var(--bleumarin);
+
+    color: #EDDA72;
+    text-align: center;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/*styles et positionements pour le paragraphe n#1 individuellement*/
+.containerfooter1 {
+    display: flex;
+    width: 225px;
+    height: 529px;
+    max-width: 1026px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 35px;
+    flex-shrink: 0;
+    flex-wrap: wrap;
+    font-size: 23px;
+}
+
+/*styles et positionements pour le paragraphe n#2 individuellement*/
+ .containerfooter2 {
+    display: flex;
+    width: 225px;
+    height: 529px;
+    max-width: 1026px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 45px;
+    flex-shrink: 0;
+    flex-wrap: wrap;
+    font-size: 19px;
+}
+
+/*styles et positionements pour le paragraphe n#3 individuellement*/
+.containerfooter3 {
+    display: flex;
+    width: 320px;
+    height: 529px;
+    max-width: 1026px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 60px;
+    flex-shrink: 0;
+    flex-wrap: wrap;
+    font-size: 21px;
+}
+
+/*styles et positionements pour le paragraphe n#4 individuellement*/
+.containerfooter4 {
+    display: flex;
+    width: 125px;
+    height: 529px;
+    max-width: 1026px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 50px;
+    flex-shrink: 0;
+    flex-wrap: wrap;
+    font-size: 23px;
+}
+
+.containerfooter5 {
+    display: flex;
+    width: 125px;
+    height: 529px;
+    max-width: 1026px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 50px;
+    flex-shrink: 0;
+    flex-wrap: wrap;
+    font-size: 23px;
+}
+
+/*styles et positionements pour le paragraphe n#5 individuellement*/
+.containerfooter6 {
+    display: flex;
+    width: 125px;
+    height: 529px;
+    max-width: 1026px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 55px;
+    flex-shrink: 0;
+    flex-wrap: wrap;
+    font-size: 23px;
+}
