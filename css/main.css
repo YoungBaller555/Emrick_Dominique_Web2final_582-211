@@ -102,10 +102,9 @@ body {
 }
 
 /*styles et positionements pour le paragraphe n#1 individuellement*/
-.containerfooter1 {
+.col {
     display: flex;
-    width: 225px;
-    height: 529px;
+    width: 175px;
     max-width: 1026px;
     justify-content: center;
     align-items: center;
@@ -116,77 +115,26 @@ body {
     font-size: 23px;
 }
 
-/*styles et positionements pour le paragraphe n#2 individuellement*/
- .containerfooter2 {
-    display: flex;
-    width: 225px;
-    height: 529px;
-    max-width: 1026px;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    gap: 45px;
-    flex-shrink: 0;
-    flex-wrap: wrap;
-    font-size: 19px;
-}
-
-/*styles et positionements pour le paragraphe n#3 individuellement*/
-.containerfooter3 {
-    display: flex;
-    width: 320px;
-    height: 529px;
-    max-width: 1026px;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    gap: 60px;
-    flex-shrink: 0;
-    flex-wrap: wrap;
-    font-size: 21px;
-}
-
-/*styles et positionements pour le paragraphe n#4 individuellement*/
-.containerfooter4 {
-    display: flex;
-    width: 125px;
-    height: 529px;
-    max-width: 1026px;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    gap: 50px;
-    flex-shrink: 0;
-    flex-wrap: wrap;
-    font-size: 23px;
-}
-
-.containerfooter5 {
-    display: flex;
-    width: 125px;
-    height: 529px;
-    max-width: 1026px;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    gap: 50px;
-    flex-shrink: 0;
-    flex-wrap: wrap;
-    font-size: 23px;
-}
-
 /*styles et positionements pour le paragraphe n#5 individuellement*/
-.containerfooter6 {
+.containerfooterlogo {
     display: flex;
     width: 125px;
-    height: 529px;
-    max-width: 1026px;
     justify-content: center;
     align-items: center;
     align-content: center;
-    gap: 55px;
+    gap: 35px;
     flex-shrink: 0;
     flex-wrap: wrap;
     font-size: 23px;
 }
 
+.containerfooterlogo img {
+    width: 90px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 35px;
+    flex-shrink: 0;
+    flex-wrap: wrap;
+    font-size: 23px;
+}
