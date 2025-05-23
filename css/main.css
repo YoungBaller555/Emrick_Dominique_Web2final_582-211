@@ -81,7 +81,7 @@ body {
 /*styles et positionements de base pour les paragraphes du footer*/
 .footercontainer {
     display: flex;
-    width: 100dvw;
+    width: 100%;
     
     padding: 20px 0px;
     justify-content: space-evenly;
@@ -91,7 +91,7 @@ body {
     font-family: "Knewave";
     background: var(--bleumarin);
 
-    color: #EDDA72;
+    color: var(--jaune);
     text-align: center;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #000;
@@ -105,7 +105,7 @@ body {
 .col {
     display: flex;
     width: 175px;
-    max-width: 1026px;
+    max-width: 100%;
     justify-content: center;
     align-items: center;
     align-content: center;
@@ -118,7 +118,7 @@ body {
 /*styles et positionements pour le paragraphe n#5 individuellement*/
 .containerfooterlogo {
     display: flex;
-    width: 125px;
+    width: 120px;
     justify-content: center;
     align-items: center;
     align-content: center;

@@ -13,8 +13,8 @@
 
 Emrick fait: <br> <br>
 
-la page "Accueil" et la page "Documentaires"<br><br>
+le HTML des pages "Accueil" et "Documentaires". Le CSS de toutes les pages et les animations.<br><br>
 
 Vasile fait:
 
-les pages "Animations" et "Nouveutées"
+le HTML des pages "Animations" et "Nouveutées".
