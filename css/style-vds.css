@@ -7,7 +7,7 @@
 }
 
 .banner img {
-    width: 780px;
+    width: 600px;
     border-radius: 20px;
 }
 
@@ -15,6 +15,7 @@
     display: flex;
     justify-content: space-between;
     padding: 2% 10%;
+    flex-wrap: wrap;
 }
 
 .textanimation {
@@ -22,7 +23,7 @@
    -webkit-text-stroke-width: 1px;
    -webkit-text-stroke-color: #000;
    font-family: Knewave;
-   font-size: 72px;
+   font-size: 60px;
    font-style: normal;
    font-weight: 400;
    line-height: normal;
@@ -44,7 +45,7 @@
 .bodycontainer {
     margin: 5%;
     display: flex;
-    gap: 23px 10%;
+    gap: 23px 6%;
     flex-wrap: wrap;
     justify-content: center;
 }
@@ -55,10 +56,9 @@
 }
 
 .container img {
-    height: 170px;
-    width: 270px;
+    height: 200px;
+    width: 340px;
     border-radius: 20px;
-
 }
 
 .title {

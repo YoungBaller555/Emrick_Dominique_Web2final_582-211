@@ -1,3 +1,4 @@
+/* Le Background de la banière de l'index est différent des autres pages */
 .bannerindex {
     background-image: url("../assets/images/AccueilBackground.png");
     background-size: cover;
@@ -22,16 +23,17 @@
 }
 
 .banner img {
-    width: 780px;
+    width: 600px;
     border-radius: 20px;
 }
 
 .bannercontent {
     display: flex;
-    align-items: center;
     justify-content: space-between;
     padding: 2% 10%;
+    flex-wrap: wrap;
 }
+
 /* Le style pour le texte de la banière*/
 .textbanner {
     color: var(--jaune);
@@ -52,7 +54,7 @@
    -webkit-text-stroke-width: 1px;
    -webkit-text-stroke-color: #000;
    font-family: Knewave;
-   font-size: 72px;
+   font-size: 60px;
    font-style: normal;
    font-weight: 400;
    line-height: normal;
@@ -96,13 +98,15 @@
     height: 200px;
     border-radius: 20px;
 }
-
+ /* Les fontes difèrre dépendant de si c'est sur l'auteur ou si c'est le titre*/
 .title {
     font-family: Knewave;
     color: var(--jaune);
    -webkit-text-stroke-width: 1px;
    -webkit-text-stroke-color: #000;
-   font-size: 26px;
+   font-size: 30px;
+   max-width: 340px;
+
 }
 
 .auteur {
@@ -110,5 +114,7 @@
     color: var(--jaune);
    -webkit-text-stroke-width: 0.65px;
    -webkit-text-stroke-color: #000;
-   font-size: 18px;
+   font-size: 22px;
 }
+
+/* Le Site que j'ai fait en design graphique était litéralement fait pour bien marcher soit en version Mobile ou Desktop sans gros changement, les media queries sont litéralements inutiles ici car tout marche parfaitement juste avec le flexbox. */
