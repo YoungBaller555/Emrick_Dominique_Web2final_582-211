@@ -11,13 +11,31 @@
 <header>
     <div class="containerheader"> 
             <img id="logo" src="assets/images/logo2.png">
-            <div id="searchbarcontainer" class="placeholder"><div id="searchbar"></div></div>
-            <svg id="menuburger" xmlns="http://www.w3.org/2000/svg" width="28" height="18" viewBox="0 0 28 18" fill="none">
+
+            <div id="searchbarcontainer"><div id="searchbar"><input type="text" class="fakesearch"></div></div>
+
+
+                <label for="trigger">
+                <input type="checkbox" class="trigger" id="trigger">
+                <svg class="menuburger" xmlns="http://www.w3.org/2000/svg" width="28" height="18" viewBox="0 0 28 18" fill="none">
                 <rect width="28" height="4" rx="1" fill="#904CDF"/>
                 <rect y="7" width="28" height="4" rx="1" fill="#904CDF"/>
                 <rect y="14" width="28" height="4" rx="1" fill="#904CDF"/>
                 </svg>
-        
+                </label>
+
+                <nav class="burgermenu">
+                    <ul>
+                        <li><a class="titrecontainer" href="index.html">Accueil</a></li> <br>
+                        <li><a class="titrecontainer" href="documentaires.html">Documentaires</a></li><br>
+                        <li><a class="titrecontainer" href="animation.html">Animation</a></li><br>
+                        <li><a class="titrecontainer" href="#">Intéractif</a></li><br>
+                        <li><a class="titrecontainer" href="#">Éducation</a></li><br>
+                        <li><a class="titrecontainer" href="#">Connexion</a></li><br>
+                        <li><a class="titrecontainer" href="#">English</a></li><br>
+                    </ul>
+                </nav>
+                
     </div>
 </header>
 <body>
@@ -28,7 +46,7 @@
     </div>
 
     <div class="bodycontainer">
-        <p class="titrecontainer" >Nouveautées en Animation</p>
+        <a class="titrecontainer" href="nouveauteanimation.html">Nouveautées en Animation</a>
         <div class="container">
             <img src="../assets/images/LeTableau.jpg">
             <p class="title">Le Tableau</p>

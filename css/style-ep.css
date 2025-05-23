@@ -63,7 +63,7 @@
    padding-bottom: 100px;
    text-align: center;
 }
-
+ /* Ceci est utilisé pour les liens entre les pages */
 .titrecontainer {
     color: var(--jaune);
    -webkit-text-stroke-width: 1px;
@@ -72,6 +72,12 @@
    font-size: 40px;
    width: 100%;
    text-align: center;
+   transition: all 0.35s;
+}
+/* Le texte change de couleure lorsque le curseur passe dessus */
+.titrecontainer:hover {
+    color: var(--purple);
+    -webkit-text-stroke-color: #FFFFFF;
 }
 
 .bodycontainer {
@@ -86,13 +92,13 @@
     display: flex;
     flex-direction: column;
 }
-
+/* Les images on une auteure toujours fixe.*/
 .container img {
     height: 200px;
     width: 340px;
     border-radius: 20px;
 }
-
+ /* Il y a une plus grande image dans l'accueil qui doit utilisé cette classe */
 .widecontainer img {
     width: 75dvw;
     height: 200px;
@@ -116,5 +122,7 @@
    -webkit-text-stroke-color: #000;
    font-size: 22px;
 }
+
+
 
 /* Le Site que j'ai fait en design graphique était litéralement fait pour bien marcher soit en version Mobile ou Desktop sans gros changement, les media queries sont litéralements inutiles ici car tout marche parfaitement juste avec le flexbox. */

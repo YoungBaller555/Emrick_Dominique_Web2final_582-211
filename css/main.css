@@ -77,6 +77,13 @@ body {
     border: 1px solid #000;
     background: var(--white);
 }
+/* Permet d'avoir une barre de recherche qui ne fait rien :) */
+.fakesearch {
+    border: none;
+    background: none;
+    width: 100%;
+    max-width: 357px;
+}
 
 /*styles et positionements de base pour les paragraphes du footer*/
 .footercontainer {
@@ -138,3 +145,31 @@ body {
     flex-wrap: wrap;
     font-size: 23px;
 }
+
+.trigger {
+    display: none;
+}
+
+.menuburger {
+    cursor: pointer;
+}
+ /* Je n'arrivais pas a faire marcher le burger menu correctement, alors je l'ai placé directement dans la page elle même pour que les autres pages soit accessibles. */
+.burgermenu {
+    font-family: Keenwave;
+    color: var(--jaune);
+    font-size: 30px;
+    position: absolute;
+    background-color: var(--bleumarin);
+    width: 315px;
+    height: 365px;
+    left: 81.855vw;
+    top: 5vh;
+    padding: 10px;
+    transition: all 0.4s ease-in-out;
+    opacity: 60%; /* Ceci est seulement là pour faire en sorte que ce qui est en arrière du menu Burger soit visible (Vu que je n'ai pas réussi à le faire fonctionner */
+}
+
+.burgermenu:has(.trigger:checked) {
+    top: 10vh;
+}
+

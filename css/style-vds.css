@@ -40,6 +40,12 @@
    font-size: 40px;
    width: 100%;
    text-align: center;
+   transition: all 0.35s;
+}
+
+.titrecontainer:hover {
+    color: var(--purple);
+    -webkit-text-stroke-color: #FFFFFF;
 }
 
 .bodycontainer {
