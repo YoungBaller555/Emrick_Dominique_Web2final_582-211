@@ -13,8 +13,9 @@
 
 Emrick fait: <br> <br>
 
-le HTML des pages "Accueil" et "Documentaires". Le CSS de toutes les pages et les animations.<br><br>
+le HTML des pages "Accueil" et "Documentaires". Le CSS de toutes les pages et les animations. (J'ai fait la grande majorité du travail)<br><br>
 
 Vasile fait:
 
 le HTML des pages "Animations" et "Nouveutées".
+
